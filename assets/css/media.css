@@ -1,0 +1,22 @@
+@media (min-width: 535px) and (max-width: 824px) {
+  [ class*="col-"]{
+    width: 100%;
+  }
+  .landscape{
+	background-image: url(../images/dawn.png);
+  }
+  img{
+	content: url(../images/kitten-medium.png);
+  }
+ }
+@media (min-width: 1px) and (max-width: 534px) {
+  [ class*="col-"]{
+    width: 100%;
+  }
+  .landscape{
+	background-image: url(../images/night.jpg);
+  }
+  img{
+	content: url(../images/kitten-small.png);
+  }
+}

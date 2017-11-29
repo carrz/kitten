@@ -1,0 +1,13 @@
+body{
+	margin: 0;
+}
+.landscape{
+	background-image: url(../images/sunny-day.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+img{
+	position: absolute;
+	right: 35vw;
+	bottom: 5vh;   
+}
